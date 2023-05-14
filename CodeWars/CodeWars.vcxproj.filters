@@ -30,5 +30,8 @@
     <ClCompile Include="Mexican Wave.cpp">
       <Filter>Исходные файлы\CodeWarsTask</Filter>
     </ClCompile>
+    <ClCompile Include="Two Sum.cpp">
+      <Filter>Исходные файлы\CodeWarsTask</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
