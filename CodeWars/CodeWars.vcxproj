@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeWars.cpp" />
+    <ClCompile Include="Mexican Wave.cpp" />
     <ClCompile Include="Moving Zeros To The End.cpp" />
+    <ClCompile Include="The Supermarket Queue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

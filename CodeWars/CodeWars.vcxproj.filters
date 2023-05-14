@@ -24,5 +24,11 @@
     <ClCompile Include="Moving Zeros To The End.cpp">
       <Filter>Исходные файлы\CodeWarsTask</Filter>
     </ClCompile>
+    <ClCompile Include="The Supermarket Queue.cpp">
+      <Filter>Исходные файлы\CodeWarsTask</Filter>
+    </ClCompile>
+    <ClCompile Include="Mexican Wave.cpp">
+      <Filter>Исходные файлы\CodeWarsTask</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
