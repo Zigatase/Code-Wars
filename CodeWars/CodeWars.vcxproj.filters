@@ -33,5 +33,16 @@
     <ClCompile Include="Two Sum.cpp">
       <Filter>Исходные файлы\CodeWarsTask</Filter>
     </ClCompile>
+    <ClCompile Include="Find the missing term in an Arithmetic Progression.cpp">
+      <Filter>Исходные файлы\CodeWarsTask</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum of Digits Digital Root.cpp">
+      <Filter>Исходные файлы\CodeWarsTask</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CodeWars.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

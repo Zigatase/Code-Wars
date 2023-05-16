@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,10 +130,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeWars.cpp" />
+    <ClCompile Include="Find the missing term in an Arithmetic Progression.cpp" />
     <ClCompile Include="Mexican Wave.cpp" />
     <ClCompile Include="Moving Zeros To The End.cpp" />
+    <ClCompile Include="Sum of Digits Digital Root.cpp" />
     <ClCompile Include="The Supermarket Queue.cpp" />
     <ClCompile Include="Two Sum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CodeWars.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

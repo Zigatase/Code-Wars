@@ -1,12 +1,14 @@
-﻿#include "CodeWars.h"
+#include <vector>
+#include <string>
 
+// This can also be implemented through a map
 
 std::vector <std::vector <std::string>> PinBoard{
           {"0","8"},
           {"1","2","4"},
           {"1","2","3","5"},
           {"2","3","6"},
-          {"1","4","5"},
+          {"1","4","5", "7"},
           {"2","4","5","6","8"},
           {"3","5","6","9"},
           {"4","7","8"},
@@ -42,15 +44,4 @@ std::vector<std::string> get_pins(std::string observed)
     std::vector<std::string> res = getVariForDigit(observed, 0);
 
     return res;
-}
-
-
-int main()
-{
-    std::vector<std::string> res = get_pins("369");
-
-    for (auto i: res)
-        std::cout << i << std::endl;
-
-    return 0;
 }
